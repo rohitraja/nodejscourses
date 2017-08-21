@@ -1,7 +1,6 @@
 var http = require('http');
 var fs = require('fs');
 
-
 var server = http.createServer(function(req,res){
 	if(req.method==="GET"){
 		res.writeHeader(200,{"Content-Type": "text/html"});
